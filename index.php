@@ -1,5 +1,9 @@
 <?php
+
 echo("test");
+
+echo("zizi");
+
 /**
  * CodeIgniter
  *
