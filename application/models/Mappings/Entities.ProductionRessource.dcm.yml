@@ -1,0 +1,28 @@
+Entities\ProductionRessource:
+    type: entity
+    table: production_ressource
+    fields:
+        idProductionRessource:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_production_ressource
+            generator:
+                strategy: IDENTITY
+        idBatimentFk:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_batiment_fk
+        idRessourceFk:
+            type: integer
+            unsigned: false
+            nullable: true
+            column: id_ressource_fk
+        productionHeure:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: production_heure
+    lifecycleCallbacks: {  }

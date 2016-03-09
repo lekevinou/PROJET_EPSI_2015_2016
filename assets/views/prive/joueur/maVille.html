@@ -1,0 +1,37 @@
+<div class="wrapper">
+
+	<h1>{{infosGenerales.nomVille}}</h1>
+	<p>Bois : {{infosGenerales.nombreBoisVille}} / Fer : {{infosGenerales.nombreFerVille}} / Pierre : {{infosGenerales.nombrePierreVille}} / Nourriture : {{infosGenerales.nombreNourritureVille}} / </p>
+	<p>population disponible: {{infosGenerales.populationTotaleVille - infosGenerales.populationOccupeeVille}}<p>
+	<p>Places disponibles : {{infosGenerales.populationMaxVille - infosGenerales.populationTotaleVille}}
+	<hr/>
+
+
+	<div ng-show="listeBatiments" ng-repeat="batiment in batiments" ng-click="afficherBatiment(batiment.idVilleBatiment)">
+
+		<h4>{{batiment.nomBatiment}}</h4>
+		<p ng-if="batiment.niveauBatiment > 0">niveau: {{batiment.niveauBatiment}}</p>
+		<p ng-if="batiment.niveauBatiment == 0">Construire</p>		
+	<hr/>
+
+	</div>
+
+
+
+	<div ng-show="actionsBatiment" class="actionsBatiment">
+
+		<h4>{{infosBatiment.nomBatiment}}</h4>
+		<p>niveau: {{infosBatiment.niveauBatiment}}</p>
+
+	  <div ng-if="coutsAmelioration != false" class="amerliorerBatiment">
+		<p ng-click="ameliorerBatiment(infosBatiment.idVilleBatiment)">Améliorer au niveau {{coutsAmelioration.niveauBatiment}} </p>
+		<p>Bois : {{coutsAmelioration.coutBoisBatiment}} / Pierre : {{coutsAmelioration.coutPierreBatiment}} / Fer : {{coutsAmelioration.coutFerBatiment}} / Nourriture : {{coutsAmelioration.coutNourritureBatiment}} / villageois : {{coutsAmelioration.coutVillageoisBatiment}}</p>
+	  </div>
+
+	  <p ng-if="coutsAmelioration == false">Impossible de construire, batiments requis</p>
+
+		<p ng-click="actionsBatiment = false; listeBatiments = true;">Retour</p>
+	</div>
+
+
+</div>

@@ -1,0 +1,32 @@
+Entities\Message:
+    type: entity
+    table: message
+    fields:
+        idMessage:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_message
+            generator:
+                strategy: IDENTITY
+        dateMessage:
+            type: date
+            nullable: false
+            column: date_message
+        idExpediteurMessage:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_expediteur_message
+        objetMessage:
+            type: string
+            length: 255
+            fixed: false
+            nullable: true
+            column: objet_message
+        txtMessage:
+            type: text
+            nullable: false
+            column: txt_message
+    lifecycleCallbacks: {  }

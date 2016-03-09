@@ -1,0 +1,27 @@
+Entities\VilleUnite:
+    type: entity
+    table: ville_unite
+    fields:
+        id:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            generator:
+                strategy: IDENTITY
+        idVille:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_ville
+        idUnite:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_unite
+        idNombreUnite:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_nombre_unite
+    lifecycleCallbacks: {  }

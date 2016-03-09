@@ -1,0 +1,56 @@
+Entities\Batiment:
+    type: entity
+    table: batiment
+    fields:
+        idBatiment:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_batiment
+            generator:
+                strategy: IDENTITY
+        idTypeBatimentFk:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_type_batiment_fk
+        niveauBatiment:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: niveau_batiment
+        coutBoisBatiment:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: cout_bois_batiment
+        coutFerBatiment:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: cout_fer_batiment
+        coutPierreBatiment:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: cout_pierre_batiment
+        coutNourritureBatiment:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: cout_nourriture_batiment
+        coutVillageoisBatiment:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: cout_villageois_batiment
+        tempsConstructionBatiment:
+            type: text
+            nullable: false
+            column: temps_construction_batiment
+        idBatimentRequis:
+            type: text
+            nullable: true
+            column: id_batiment_requis
+    lifecycleCallbacks: {  }

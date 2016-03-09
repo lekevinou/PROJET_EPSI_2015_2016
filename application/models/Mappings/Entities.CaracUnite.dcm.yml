@@ -1,0 +1,83 @@
+Entities\CaracUnite:
+    type: entity
+    table: carac_unite
+    fields:
+        idUnite:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_unite
+            generator:
+                strategy: IDENTITY
+        nomUnite:
+            type: string
+            length: 255
+            fixed: false
+            nullable: false
+            column: nom_unite
+        descriptionUnite:
+            type: text
+            nullable: true
+            column: description_unite
+        attaqueUnite:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: attaque_unite
+        defenseInfanterieUnite:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: defense_infanterie_unite
+        defenseDistantUnite:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: defense_distant_unite
+        defenseCavalerieUnite:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: defense_cavalerie_unite
+        vitesseUnite:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: vitesse_unite
+        capaciteTransportUnite:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: capacite_transport_unite
+        idTypeUnite:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_type_unite
+        coutBoisUnite:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: cout_bois_unite
+        coutFerUnite:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: cout_fer_unite
+        coutPierreUnite:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: cout_pierre_unite
+        coutNourritureUnite:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: cout_nourriture_unite
+        tempsCreationUnite:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: temps_creation_unite
+    lifecycleCallbacks: {  }

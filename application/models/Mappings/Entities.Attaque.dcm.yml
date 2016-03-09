@@ -1,0 +1,22 @@
+Entities\Attaque:
+    type: entity
+    table: attaque
+    fields:
+        id:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            generator:
+                strategy: IDENTITY
+        idVilleAttaque:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_ville_attaque
+        idVilleDefend:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_ville_defend
+    lifecycleCallbacks: {  }
