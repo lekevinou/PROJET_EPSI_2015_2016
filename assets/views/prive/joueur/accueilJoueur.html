@@ -1,0 +1,11 @@
+<div class="wrapper">
+
+	<h1>Bienvenue sur votre tableau de bord {{mesInfos.pseudoJoueur}}</h1>
+	<hr/>
+
+
+	<h4>Les villes de {{mesInfos.pseudoJoueur}}</h4>
+
+	<p ng-repeat="ville in mesVilles"><a href="{{site}}#/ville/{{ville.idVille}}">{{ville.nomVille}} : {{ville.populationTotaleVille}} habitants</a></p>
+
+</div>

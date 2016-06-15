@@ -1,0 +1,22 @@
+Entities\MessageDestinataire:
+    type: entity
+    table: message_destinataire
+    fields:
+        id:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            generator:
+                strategy: IDENTITY
+        idMessage:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_message
+        idDestinataire:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_destinataire
+    lifecycleCallbacks: {  }

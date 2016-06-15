@@ -1,0 +1,23 @@
+Entities\VilleBatiment:
+    type: entity
+    table: ville_batiment
+    fields:
+        idVilleBatiment:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_ville_batiment
+            generator:
+                strategy: IDENTITY
+        idVilleFk:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_ville_fk
+        idBatimentFk:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_batiment_fk
+    lifecycleCallbacks: {  }

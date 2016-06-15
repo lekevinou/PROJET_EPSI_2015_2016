@@ -1,0 +1,45 @@
+Entities\Joueur:
+    type: entity
+    table: joueur
+    fields:
+        idJoueur:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_joueur
+            generator:
+                strategy: IDENTITY
+        pseudoJoueur:
+            type: string
+            length: 255
+            fixed: false
+            nullable: false
+            column: pseudo_joueur
+        emailJoueur:
+            type: string
+            length: 255
+            fixed: false
+            nullable: false
+            column: email_joueur
+        mdpJoueur:
+            type: string
+            length: 255
+            fixed: false
+            nullable: false
+            column: mdp_joueur
+        idRaceFk:
+            type: integer
+            unsigned: false
+            nullable: false
+            column: id_race_fk
+        descriptionJoueur:
+            type: text
+            nullable: true
+            column: description_joueur
+        sexeJoueur:
+            type: integer
+            unsigned: false
+            nullable: true
+            column: sexe_joueur
+    lifecycleCallbacks: {  }
