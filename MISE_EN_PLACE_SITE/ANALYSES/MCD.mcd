@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<?PowerDesigner AppLocale="UTF16" ID="{5A76B11F-4072-4480-8A4E-05E1B59E7CCF}" Label="" LastModificationDate="1449063256" Name="Données conceptuelles_1" Objects="79" Symbols="31" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" signature="CDM_DATA_MODEL_XML" version="15.1.0.2850"?>
+=======
 <?PowerDesigner AppLocale="UTF16" ID="{5A76B11F-4072-4480-8A4E-05E1B59E7CCF}" Label="" LastModificationDate="1455117272" Name="Données conceptuelles_1" Objects="123" Symbols="49" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" signature="CDM_DATA_MODEL_XML" version="15.1.0.2850"?>
+>>>>>>> f4c09a0fbafb99f1895fa9d6c76135a521632073
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -785,10 +789,17 @@ Shadow=0</a:DisplayPreferences>
 <a:PaperSource>15</a:PaperSource>
 <c:Symbols>
 <o:AssociationLinkSymbol Id="o4">
+<<<<<<< HEAD
+<a:CreationDate>1447857988</a:CreationDate>
+<a:ModificationDate>1447862213</a:ModificationDate>
+<a:Rect>((-16794,1634), (-14994,14139))</a:Rect>
+<a:ListOfPoints>((-16756,14139),(-16756,5550),(-16643,5550),(-16643,1634))</a:ListOfPoints>
+=======
 <a:CreationDate>1447858005</a:CreationDate>
 <a:ModificationDate>1455102487</a:ModificationDate>
 <a:Rect>((-21893,-4608), (-14094,13401))</a:Rect>
 <a:ListOfPoints>((-14094,-3435),(-20394,-3435),(-20394,13401))</a:ListOfPoints>
+>>>>>>> f4c09a0fbafb99f1895fa9d6c76135a521632073
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>16744576</a:LineColor>
@@ -807,9 +818,15 @@ CARD 0 Arial,8,N</a:FontList>
 </o:AssociationLinkSymbol>
 <o:AssociationLinkSymbol Id="o8">
 <a:CreationDate>1447858005</a:CreationDate>
+<<<<<<< HEAD
+<a:ModificationDate>1447862197</a:ModificationDate>
+<a:Rect>((-30856,3015), (-28994,14151))</a:Rect>
+<a:ListOfPoints>((-29094,3015),(-29094,14151))</a:ListOfPoints>
+=======
 <a:ModificationDate>1455102487</a:ModificationDate>
 <a:Rect>((-20937,13357), (-11667,15894))</a:Rect>
 <a:ListOfPoints>((-11667,15307),(-20937,15307),(-20937,13357))</a:ListOfPoints>
+>>>>>>> f4c09a0fbafb99f1895fa9d6c76135a521632073
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>16744576</a:LineColor>
@@ -889,11 +906,19 @@ CARD 0 Arial,8,N</a:FontList>
 <o:AssociationLink Ref="o20"/>
 </c:Object>
 </o:AssociationLinkSymbol>
+<<<<<<< HEAD
+<o:AssociationLinkSymbol Id="o20">
+<a:CreationDate>1447858010</a:CreationDate>
+<a:ModificationDate>1447860008</a:ModificationDate>
+<a:Rect>((7266,2035), (9128,9016))</a:Rect>
+<a:ListOfPoints>((9028,2035),(9028,9016))</a:ListOfPoints>
+=======
 <o:AssociationLinkSymbol Id="o21">
 <a:CreationDate>1447858011</a:CreationDate>
 <a:ModificationDate>1455102481</a:ModificationDate>
 <a:Rect>((-16041,14471), (-10780,33917))</a:Rect>
 <a:ListOfPoints>((-10780,14471),(-10780,25769),(-16041,25769),(-16041,33917))</a:ListOfPoints>
+>>>>>>> f4c09a0fbafb99f1895fa9d6c76135a521632073
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>16744576</a:LineColor>
@@ -973,8 +998,13 @@ CARD 0 Arial,8,N</a:FontList>
 <o:InheritanceLinkSymbol Id="o33">
 <a:CreationDate>1447859042</a:CreationDate>
 <a:ModificationDate>1447860008</a:ModificationDate>
+<<<<<<< HEAD
+<a:Rect>((8225,17271), (8232,21722))</a:Rect>
+<a:ListOfPoints>((8232,17271),(8225,21722))</a:ListOfPoints>
+=======
 <a:Rect>((8225,17271), (8325,21722))</a:Rect>
 <a:ListOfPoints>((8225,17271),(8225,21722))</a:ListOfPoints>
+>>>>>>> f4c09a0fbafb99f1895fa9d6c76135a521632073
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>16744576</a:LineColor>
@@ -1010,9 +1040,15 @@ CARD 0 Arial,8,N</a:FontList>
 </o:InheritanceLinkSymbol>
 <o:AssociationLinkSymbol Id="o39">
 <a:CreationDate>1447859138</a:CreationDate>
+<<<<<<< HEAD
+<a:ModificationDate>1447860008</a:ModificationDate>
+<a:Rect>((9512,9022), (11312,16460))</a:Rect>
+<a:ListOfPoints>((9550,16460),(9550,9022))</a:ListOfPoints>
+=======
 <a:ModificationDate>1455116556</a:ModificationDate>
 <a:Rect>((10037,10522), (11837,16460))</a:Rect>
 <a:ListOfPoints>((10037,16460),(10037,10522))</a:ListOfPoints>
+>>>>>>> f4c09a0fbafb99f1895fa9d6c76135a521632073
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>16744576</a:LineColor>
@@ -1072,10 +1108,17 @@ CARD 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:AssociationLinkSymbol>
 <o:AssociationLinkSymbol Id="o46">
+<<<<<<< HEAD
+<a:CreationDate>1447859543</a:CreationDate>
+<a:ModificationDate>1449063256</a:ModificationDate>
+<a:Rect>((9466,30136), (25609,36761))</a:Rect>
+<a:ListOfPoints>((9466,35587),(25609,35587),(25609,30136))</a:ListOfPoints>
+=======
 <a:CreationDate>1455115058</a:CreationDate>
 <a:ModificationDate>1455115210</a:ModificationDate>
 <a:Rect>((-21931,-10498), (-17850,-4497))</a:Rect>
 <a:ListOfPoints>((-17850,-4498),(-19987,-4498),(-19987,-10498))</a:ListOfPoints>
+>>>>>>> f4c09a0fbafb99f1895fa9d6c76135a521632073
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>16744576</a:LineColor>
@@ -1093,10 +1136,17 @@ CARD 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:AssociationLinkSymbol>
 <o:AssociationLinkSymbol Id="o49">
+<<<<<<< HEAD
+<a:CreationDate>1447859543</a:CreationDate>
+<a:ModificationDate>1449063256</a:ModificationDate>
+<a:Rect>((16343,16372), (25609,30136))</a:Rect>
+<a:ListOfPoints>((18143,16372),(18143,23211),(25609,23211),(25609,30136))</a:ListOfPoints>
+=======
 <a:CreationDate>1455115058</a:CreationDate>
 <a:ModificationDate>1455115210</a:ModificationDate>
 <a:Rect>((-19987,-18957), (-18150,-9768))</a:Rect>
 <a:ListOfPoints>((-18150,-18957),(-18150,-14250),(-19987,-14250),(-19987,-9768))</a:ListOfPoints>
+>>>>>>> f4c09a0fbafb99f1895fa9d6c76135a521632073
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>16744576</a:LineColor>
@@ -1461,9 +1511,14 @@ Identifiers 0 Arial,8,N</a:FontList>
 </o:InheritanceSymbol>
 <o:AssociationSymbol Id="o42">
 <a:CreationDate>1447859543</a:CreationDate>
+<<<<<<< HEAD
+<a:ModificationDate>1449063256</a:ModificationDate>
+<a:Rect>((20795,28636), (30426,31635))</a:Rect>
+=======
 <a:ModificationDate>1455116287</a:ModificationDate>
 <a:Rect>((17945,31037), (25200,34201))</a:Rect>
 <a:AutoAdjustToText>0</a:AutoAdjustToText>
+>>>>>>> f4c09a0fbafb99f1895fa9d6c76135a521632073
 <a:LineColor>16744576</a:LineColor>
 <a:FillColor>16765136</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
