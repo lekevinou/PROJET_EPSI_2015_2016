@@ -21,7 +21,7 @@ class Inscription extends REST_Controller {
 
 	 public function inscription_post()
 	 {
-	    
+	    echo"test";
 	    // on convertie les données envoyéees depuis le controller js angular
     	$data = json_decode(file_get_contents("php://input"));
 
