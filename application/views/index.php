@@ -38,7 +38,7 @@
           <!--<div class="container">-->
           <div class="logo-top col-xs-3">
             <a href="#">
-              <h2>STUMPS</h2>
+              <h2 style="color: white;">STUMPS</h2>
             </a>
 
           </div>
@@ -47,8 +47,8 @@
               <ul class="menu-top">
                                    
                   <?php if($this->session->userdata('id_joueur') != NULL){?>               
-                      <li ><a href="#/moi" >Moi</a></li>                                     
-                      <li ><a href="#/ville" >Ville</a></li>
+                      <li><a style="color: white;" href="#/moi" >Moi</a></li>                                     
+                      <li><a href="#/ville" style="color: white;" >Ville</a></li>
                       <li ><a href="#/" >blabla</a></li>
                       <li><a href="<?php echo base_url('connexion/deconnexion')?>" class="desd">Déconnexion</a></li>
                   <?php }else{ ?>
@@ -56,12 +56,12 @@
 
                       <div class="connection_header col-xs-12">
                          <div class="form-group col-xs-5" >
-                           <label>pseudo :</label>
+                           <label>Pseudo :</label>
                            <input  ng-required=""  id="pseudo" type="pseudo" class="form-control" name="pseudo" ng-model="connexionPseudo"/>
                          </div>
 
                          <div class="form-group col-xs-5" >
-                           <label>mot de passe :</label>
+                           <label>Mot de passe :</label>
                            <input  ng-required="" type="password" class="form-control" name="password" ng-model="connexionPassword"/>
                          </div>
                          

@@ -4,7 +4,7 @@ $scope.site = base_url;
 $scope.listeBatiments = true;
 $scope.actionsBatiment = false;
 
-
+$scope.ressourcesInsuffisantes = false;
 
 /******************************************************************************
       // récupération des infos de l'utilisateur la ville du joueur
@@ -73,6 +73,7 @@ $scope.affichageInfos();
     }).
     error(function(response) {
         $scope.codeStatus = response || "Request failed";
+        
         //console.log(response);
     });
     return false;
@@ -87,6 +88,8 @@ $scope.affichageInfos();
 
    $scope.ameliorerBatiment=function(idVilleBatiment){
 
+        $scope.ressourcesInsuffisantes = false;
+
     $http({
       method: 'POST',
       url: base_url+'batiment/ameliorerBatiment',
@@ -95,9 +98,13 @@ $scope.affichageInfos();
     }).
     success(function(response) {
      
-   console.log(response);
+    console.log(response);
 
+    if(response == false)
+    {
+      $scope.ressourcesInsuffisantes = true;
 
+    }else{
 
    $scope.infosGenerales.nombreBoisVille = response.boisRestant;
    $scope.infosGenerales.nombreFerVille = response.ferRestant;
@@ -107,9 +114,12 @@ $scope.affichageInfos();
    $scope.afficherBatiment(idVilleBatiment);
    $scope.affichageInfos();
 
+    }
+
         
     }).
     error(function(response) {
+
         $scope.codeStatus = response || "Request failed";
         //console.log(response);
     });

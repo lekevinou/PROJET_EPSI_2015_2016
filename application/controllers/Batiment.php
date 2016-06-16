@@ -237,7 +237,7 @@ class Batiment extends REST_Controller {
 
 
                      }else{
-                        $this->response('insuffisant', 200);
+                        $this->response(false, 200);
                      }
         
 

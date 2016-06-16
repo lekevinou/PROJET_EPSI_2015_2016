@@ -6,5 +6,19 @@
 
 .inscriptionAccueil, .connectionAccueil{
 	padding:25px;
-	margin-top:100px;
+	border: 1px solid #333;
+	width: 40%;
+	background-color: rgba(58, 71, 51, 0.5);
+/*	margin-top:100px;*/
+}
+
+.inscriptionAccueil input{
+	width: 250px;
+}
+
+.inscriptionAccueil .description{
+	color: white;
+}
+.pointer{
+	cursor: pointer;
 }
