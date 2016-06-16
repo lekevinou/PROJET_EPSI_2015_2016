@@ -67,7 +67,7 @@ Class Unite{
 	}
 
 }
-
+/*
 Class Armee{
 
 	var $unites = array();
@@ -124,7 +124,7 @@ Class Armee{
 			return false;
 
 }
-
+*/
 
 $barbare = new Unite("Barbare1", "Barbare", 20, 5, 20, 15);
 $archer = new Unite("Archer1", "Distant", 20, 5, 20, 15);
