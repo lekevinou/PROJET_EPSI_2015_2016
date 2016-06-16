@@ -1,23 +1,46 @@
 <div class="wrapper">
 
-	<h1>{{infosGenerales.nomVille}}</h1>
-	<p>Bois : {{infosGenerales.nombreBoisVille}} / Fer : {{infosGenerales.nombreFerVille}} / Pierre : {{infosGenerales.nombrePierreVille}} / Nourriture : {{infosGenerales.nombreNourritureVille}} / </p>
-	<p>
+<div class="bandeauInfosVille">
+
+	<!-- <h3>{{infosGenerales.nomVille}}</h3>  -->
+	<b class="col-md-2 nomVille">{{infosGenerales.nomVille}} </b>
+	<div class="col-md-6 ressources ">  
+		<div class="col-md-1">
+			<b> Bois </b> {{infosGenerales.nombreBoisVille}}
+		</div> 
+
+		<div class="col-md-1">
+			<b> Fer </b> {{infosGenerales.nombreFerVille}}
+		</div>
+
+		<div class="col-md-1">
+			<b> Pierre </b> {{infosGenerales.nombrePierreVille}}
+		</div>
+
+		<div class="col-md-1">
+			<b> Nourriture </b> {{infosGenerales.nombreNourritureVille}} 
+		</div>
+	</div>
+	
+	<div class="col-md-2">
+	<!-- <p> -->
 		Population disponible:
 		<b> 
 			{{infosGenerales.populationTotaleVille - infosGenerales.populationOccupeeVille}}
 		</b>
-	<p>
+	<!-- </p> -->
+	</div>
+	<div class="col-md-2">
 	<p>
 		Places disponibles:
 		<b>
 		 {{infosGenerales.populationMaxVille - infosGenerales.populationTotaleVille}}
 		</b>
 	</p>
-	<hr/>
+	</div>
+</div>
 
-
-	<div ng-show="listeBatiments" ng-repeat="batiment in batiments" >
+	<div class="col-md-12" ng-show="listeBatiments" ng-repeat="batiment in batiments" >
 		<h4>{{batiment.nomBatiment}}</h4>
 		<p ng-if="batiment.niveauBatiment > 0"> 
 			Niveau: {{batiment.niveauBatiment}} 

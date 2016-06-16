@@ -7,7 +7,9 @@
 	<h4>Les villes de {{mesInfos.pseudoJoueur}} </h4>
 
 	<p ng-repeat="ville in mesVilles">
+		<i class="fa fa-home" aria-hidden="true"></i>
 		<a href="{{site}}#/ville/{{ville.idVille}}">{{ville.nomVille}} : {{ville.populationTotaleVille}} habitants</a>
+
 	</p>
 
 </div>

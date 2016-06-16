@@ -47,9 +47,9 @@
               <ul class="menu-top">
                                    
                   <?php if($this->session->userdata('id_joueur') != NULL){?>               
-                      <li><a style="color: white;" href="#/moi" >Moi</a></li>                                     
-                      <li><a href="#/ville" style="color: white;" >Ville</a></li>
-                      <li ><a href="#/" >blabla</a></li>
+                      <li><a href="#/moi">Moi</a></li>                                     
+                      <li><a href="#/ville">Ville</a></li>
+                      <!-- <li ><a href="#/" >blabla</a></li> -->
                       <li><a href="<?php echo base_url('connexion/deconnexion')?>" class="desd">Déconnexion</a></li>
                   <?php }else{ ?>
 

@@ -9,7 +9,6 @@
 	border: 1px solid #333;
 	width: 40%;
 	background-color: rgba(58, 71, 51, 0.5);
-/*	margin-top:100px;*/
 }
 
 .inscriptionAccueil input{
@@ -19,6 +18,24 @@
 .inscriptionAccueil .description{
 	color: white;
 }
+
 .pointer{
 	cursor: pointer;
+}
+
+.menu-top li>a{
+	color: white;
+}
+
+.wrapper .nomVille{
+	/*padding-top: 5px;*/
+	/*text-align: center;*/
+}
+
+.wrapper .ressources{
+	/*padding-bottom: 10px;*/
+}
+
+.bandeauInfosVille{ 
+	padding-bottom: 100px;
 }
